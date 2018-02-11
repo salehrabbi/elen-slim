@@ -109,12 +109,19 @@ body {
         color: #fff;
         display: block;
         margin-bottom: 15px; }
+        .main-header .right-form .content lable span {
+          width: 31%;
+          display: inline-block;
+          float: left;
+          margin-right: 5px; }
         .main-header .right-form .content lable input {
           border: none;
           background: #fff;
           color: #000;
           padding: 0 5px;
-          height: 24px; }
+          height: 24px;
+          width: 63%;
+          float: left; }
       .main-header .right-form .content button {
         border: none;
         background: none;
@@ -171,3 +178,23 @@ body {
   line-height: 1; }
 .news p {
   font: 25px/1.36 'Segoe UI Symbol'; }
+
+.product-inforamtion h3 {
+  margin: 0;
+  font: 25px/1 'Impact'; }
+.product-inforamtion .text {
+  padding: 15px 0; }
+.product-inforamtion p {
+  font: 25px/1.32 'Segoe UI Symbol';
+  margin: 0; }
+.product-inforamtion .container {
+  background: url(../images/blue.png);
+  background-size: 100% 100%; }
+.product-inforamtion .blue {
+  background: url(../images/blue.png); }
+.product-inforamtion .green {
+  background-image: url(../images/green.png); }
+.product-inforamtion .red {
+  background-image: url(../images/red.png); }
+.product-inforamtion .light-blue {
+  background-image: url(../images/light-blue.png); }
