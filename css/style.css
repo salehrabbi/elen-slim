@@ -1,6 +1,15 @@
 body {
   color: #000; }
 
+.no-padding-left {
+  padding-left: 0; }
+
+.no-padding-right {
+  padding-right: 0; }
+
+.img-responsive {
+  display: initial; }
+
 @media (min-width: 1367px) {
   .main-header .container {
     width: 1200px; } }
@@ -240,6 +249,37 @@ body {
     bottom: -62px;
     position: relative;
     right: -28px; }
+
+.what-better .container {
+  background: url(../images/formula-bg.png) no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 30px; }
+.what-better .what-title {
+  background: url(../images/what-better-title.png) no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  padding: 21px 0 30px 63px;
+  width: 114%;
+  margin-left: -11%; }
+  .what-better .what-title h3 {
+    margin: 0;
+    color: #fad00c;
+    font: 700 35px/1 'Segoe UI';
+    letter-spacing: 0.04em; }
+  .what-better .what-title h3 + h3 {
+    color: #fff; }
+.what-better p {
+  font: 25px/1.36 'Segoe UI';
+  letter-spacing: -.02em; }
+.what-better .p-bottom {
+  font-family: 'Segoe UI Symbol'; }
+.what-better .what-man {
+  position: relative;
+  top: 103px; }
+.what-better .what-medicine {
+  margin-top: -46px; }
+.what-better .what-order {
+  margin: 13px 0 20px -28px; }
 
 .product-inforamtion h3 {
   margin: 0;
