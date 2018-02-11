@@ -193,3 +193,25 @@ body {
         }
     }
 }
+
+.news {
+    .container {
+        background: #f9f9f7;
+        border-radius: 15px;
+        border: 1px solid #c4c4c4;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 50px auto;
+    }
+    h2 {
+        margin: 0;
+        color: #86c807;
+        font-weight: 700;
+        font-family: 'Arial';
+        font-size: 44px;
+        line-height: 1;
+    }
+    p {
+        font: 25px/1.36 'Segoe UI Symbol';
+    }
+}
