@@ -335,13 +335,13 @@ body {
     max-width: 139px;
     position: relative;
     top: -20px; }
-  .week-transport h3 {
+  .week-transport h5 {
     margin: 0;
     color: #fff;
     font: 21px/1 'Folklore';
     letter-spacing: 0.10em;
     margin-top: 14px; }
-    .week-transport h3 span {
+    .week-transport h5 span {
       display: block;
       font-size: 67px;
       letter-spacing: .02em; }
@@ -367,3 +367,8 @@ body {
   background-image: url(../images/red.png); }
 .product-inforamtion .light-blue {
   background-image: url(../images/light-blue.png); }
+.product-inforamtion .no-bg-container {
+  background: none;
+  padding: 0; }
+  .product-inforamtion .no-bg-container .week-transport {
+    border: 7px solid #ee980f; }

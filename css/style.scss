@@ -417,7 +417,7 @@ body {
         position: relative;
         top: -20px;
     }
-    h3{
+    h5{
         margin: 0;
         color: #fff;
         font: 21px/1 'Folklore';
@@ -461,5 +461,12 @@ body {
     }
     .light-blue {
         background-image: url(../images/light-blue.png);
+    }
+    .no-bg-container{
+        background: none;
+        padding: 0;
+        .week-transport{
+            border: 7px solid #ee980f;
+        }
     }
 }
