@@ -2,15 +2,19 @@ $u: 'Utsaah';
 body {
     color: #000;
 }
-.no-padding-left{
+
+.no-padding-left {
     padding-left: 0;
 }
-.no-padding-right{
+
+.no-padding-right {
     padding-right: 0;
 }
-.img-responsive{
+
+.img-responsive {
     display: initial;
 }
+
 @media (min-width:1367px) {
     .main-header {
         .container {
@@ -327,7 +331,7 @@ body {
             font: 700 35px/1 'Segoe UI';
             letter-spacing: 0.04em;
         }
-        h3+h3{
+        h3 + h3 {
             color: #fff;
         }
     }
@@ -335,18 +339,98 @@ body {
         font: 25px/1.36 'Segoe UI';
         letter-spacing: -.02em;
     }
-    .p-bottom{
+    .p-bottom {
         font-family: 'Segoe UI Symbol';
     }
-    .what-man{
+    .what-man {
         position: relative;
         top: 103px;
     }
-    .what-medicine{
+    .what-medicine {
         margin-top: -46px;
     }
-    .what-order{
+    .what-order {
         margin: 13px 0 20px -28px;
+    }
+}
+
+.benifits {
+    margin-bottom: 40px;
+    .container {
+        background: url(../images/benifits-bg.png) no-repeat;
+        background-size: 100% 100%;
+        border: 7px solid #ee980f;
+        padding: 0;
+    }
+    h4 {
+        margin: 20px 0;
+        font: 70px/1 'Impact';
+        letter-spacing: 0.14em;
+        span {
+            font-size: 138px;
+            color: #a31702;
+            display: block;
+            letter-spacing: 0.12em;
+        }
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        clear: both;
+        position: relative;
+        &:after {
+            content: "";
+            background: url(../images/medicine-2.png) no-repeat;
+            width: 357px;
+            height: 319px;
+            position: absolute;
+            top: -6px;
+            right: 15px;
+        }
+        li {
+            background: url(../images/list-bg.png) no-repeat;
+            background-size: 100% 100%;
+            font: 35px/1.5 'Segoe UI Symbol';
+            letter-spacing: -0.02em;
+            margin-bottom: 25px;
+            padding-left: 150px;
+            position: relative;
+            &:before {
+                content: "";
+                background: url(../images/benifits-arrow.png) no-repeat;
+                width: 104px;
+                height: 80px;
+                position: absolute;
+                top: -30px;
+                left: 46px;
+            }
+        }
+    }
+}
+
+.week-transport {
+    background: #0f5300;
+    border-top: 7px solid #ee980f;
+    .medicine {
+        max-width: 139px;
+        position: relative;
+        top: -20px;
+    }
+    h3{
+        margin: 0;
+        color: #fff;
+        font: 21px/1 'Folklore';
+        letter-spacing: 0.10em;
+        margin-top: 14px;
+        span{
+            display: block;
+            font-size: 67px;
+            letter-spacing: .02em;
+        }
+    }
+    .order-button{
+        margin-top: 22px;
     }
 }
 
