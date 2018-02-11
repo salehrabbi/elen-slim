@@ -179,6 +179,68 @@ body {
 .news p {
   font: 25px/1.36 'Segoe UI Symbol'; }
 
+.formula {
+  margin-bottom: 40px; }
+  .formula .container {
+    background: url(../images/formula-bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding-bottom: 30px; }
+  .formula .formula-fact {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 600px; }
+  .formula .title {
+    background: url(../images/formula-title.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    padding: 47px 100px 89px 33px;
+    margin-top: -25px; }
+    .formula .title .wraper {
+      -webkit-transform: rotate(-5deg);
+              transform: rotate(-5deg); }
+    .formula .title h2 {
+      margin: 0;
+      color: #fad00c;
+      font: 51px/1 'Folklore'; }
+    .formula .title p {
+      margin: 0;
+      color: #fff;
+      font: 29px 'Folklore';
+      line-height: 1; }
+  .formula h3 {
+    margin: 0;
+    color: #008828;
+    font: 40px/1 'Segoe UI';
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    margin-bottom: 40px; }
+  .formula p {
+    font: 25px/1.36 'Segoe UI';
+    letter-spacing: -.02em; }
+  .formula .bottom-text {
+    margin-top: 15px;
+    margin-bottom: 10px; }
+    .formula .bottom-text p {
+      font-weight: 700;
+      font-style: italic;
+      color: #008828;
+      margin-top: 25px; }
+      .formula .bottom-text p span {
+        color: #000; }
+  .formula .img-link img {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto; }
+  .formula .gmp {
+    bottom: -62px;
+    position: relative;
+    right: -28px; }
+
 .product-inforamtion h3 {
   margin: 0;
   font: 25px/1 'Impact'; }

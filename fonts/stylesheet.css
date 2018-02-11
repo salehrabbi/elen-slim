@@ -17,3 +17,10 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+  font-family: 'Folklore';
+  src: url('Folklore.eot?#iefix') format('embedded-opentype'),  url('Folklore.woff') format('woff'), url('Folklore.ttf')  format('truetype'), url('Folklore.svg#Folklore') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
