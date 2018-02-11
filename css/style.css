@@ -37,13 +37,12 @@
       background-size: 100% 100%;
       font-family: 'Lao UI';
       color: #811600;
-      padding: 26px 0 37px 0;
-      text-align: center;
+      padding: 26px 0 37px 82px;
       position: relative; }
       .main-header .left-title .orange-title:nth-child(2) {
-        margin-top: -18px; }
-        .main-header .left-title .orange-title:nth-child(2) h4 {
-          padding-left: 45px; }
+        margin-top: -18px;
+        width: 110%;
+        left: -10%; }
       .main-header .left-title .orange-title:nth-child(3) {
         margin-top: -18px; }
       .main-header .left-title .orange-title:before {

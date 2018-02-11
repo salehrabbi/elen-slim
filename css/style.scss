@@ -46,16 +46,14 @@ $u: 'Utsaah';
             background-size: 100% 100%;
             font-family: 'Lao UI';
             color: #811600;
-            padding: 26px 0 37px 0;
-            text-align: center;
+            padding: 26px 0 37px 82px;
             position: relative;
             &:nth-child(2) {
                 margin-top: -18px;
-                h4 {
-                    padding-left: 45px;
-                }
+                width: 110%;
+                left: -10%;
             }
-            &:nth-child(3){
+            &:nth-child(3) {
                 margin-top: -18px;
             }
             &:before {
