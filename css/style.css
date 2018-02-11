@@ -16,6 +16,8 @@
       position: absolute;
       top: 0;
       left: 0; }
+  .main-header .title-wraper {
+    width: 52%; }
   .main-header .left-title {
     float: left;
     width: 47%;
