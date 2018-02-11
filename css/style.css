@@ -1,0 +1,79 @@
+@media (min-width: 1367px) {
+  .main-header .container {
+    width: 1200px; } }
+.main-header {
+  background: url(../images/header-bg.png);
+  min-height: 715px;
+  position: relative; }
+  .main-header:before {
+    content: "";
+    background: url(../images/top-banner.png) no-repeat;
+    background-size: 100%;
+    height: 663px;
+    width: 809px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .main-header .left-title {
+    float: left;
+    width: 47%;
+    margin-top: 10px; }
+    .main-header .left-title h2 {
+      background: url(../images/ttle-green.png) no-repeat;
+      background-size: 100% 100%;
+      color: #000;
+      text-shadow: 2px 2px 1px #fff;
+      margin: 0;
+      font-size: 31px;
+      line-height: 0.90;
+      font-family: 'Georgia';
+      padding: 0 0 15px 15px;
+      position: relative;
+      left: -60px; }
+      .main-header .left-title h2 span {
+        font-size: 14px; }
+    .main-header .left-title .orange-title {
+      background: url(../images/orange-content.png) no-repeat;
+      background-size: 100% 100%;
+      font-family: 'Lao UI';
+      color: #811600;
+      padding: 26px 0 37px 0;
+      text-align: center;
+      position: relative; }
+      .main-header .left-title .orange-title:nth-child(2) {
+        margin-top: -18px; }
+        .main-header .left-title .orange-title:nth-child(2) h4 {
+          padding-left: 45px; }
+      .main-header .left-title .orange-title:nth-child(3) {
+        margin-top: -18px; }
+      .main-header .left-title .orange-title:before {
+        content: "";
+        background: url(../images/orange.png) no-repeat;
+        position: absolute;
+        width: 70px;
+        height: 72px;
+        background-size: 100%;
+        left: 0;
+        top: 6px; }
+      .main-header .left-title .orange-title h4 {
+        margin: 0;
+        font-size: 12px;
+        letter-spacing: 0.02em;
+        line-height: 1.33;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .main-header .left-title .orange-title p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 1; }
+
+.logo img {
+  display: inline-block; }
+.logo a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  font-family: "Utsaah";
+  margin-right: 15px; }
+  .logo a img {
+    margin-right: 10px; }
