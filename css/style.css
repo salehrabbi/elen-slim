@@ -372,3 +372,60 @@ body {
   padding: 0; }
   .product-inforamtion .no-bg-container .week-transport {
     border: 7px solid #ee980f; }
+
+.discount {
+  margin-top: 40px; }
+  .discount .container {
+    background: url(../images/discount-bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 30px; }
+  .discount .row {
+    background: #f0f2f8;
+    margin: 0;
+    padding: 20px; }
+  .discount ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .discount ul li {
+      font-family: 'Calibri';
+      font-size: 27px;
+      line-height: 1.3; }
+      .discount ul li .delete {
+        font-size: 44px;
+        background: url(../images/dicount-cross.png) no-repeat;
+        background-size: 100% 100%; }
+      .discount ul li .delete.no {
+        background: none; }
+      .discount ul li .one {
+        font-size: 44px;
+        margin-left: 30px; }
+      .discount ul li .save {
+        display: block;
+        color: #ff0000;
+        text-align: center; }
+      .discount ul li img {
+        margin-right: 5px; }
+  .discount .order-button {
+    margin: 20px 0; }
+
+.footer-top {
+  margin-top: 30px; }
+  .footer-top .container {
+    background: url(../images/footer-top.png) no-repeat;
+    background-size: 100% 100%;
+    min-height: 610px; }
+  .footer-top .buttons {
+    margin-top: 34%; }
+  .footer-top .order-link {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0; }
+    .footer-top .order-link:before {
+      content: "";
+      background: url(../images/footer-top-arrow.png) no-repeat;
+      width: 229px;
+      height: 90px;
+      position: absolute;
+      top: 8px;
+      left: -257px; }

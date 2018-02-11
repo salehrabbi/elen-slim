@@ -417,19 +417,19 @@ body {
         position: relative;
         top: -20px;
     }
-    h5{
+    h5 {
         margin: 0;
         color: #fff;
         font: 21px/1 'Folklore';
         letter-spacing: 0.10em;
         margin-top: 14px;
-        span{
+        span {
             display: block;
             font-size: 67px;
             letter-spacing: .02em;
         }
     }
-    .order-button{
+    .order-button {
         margin-top: 22px;
     }
 }
@@ -462,11 +462,85 @@ body {
     .light-blue {
         background-image: url(../images/light-blue.png);
     }
-    .no-bg-container{
+    .no-bg-container {
         background: none;
         padding: 0;
-        .week-transport{
+        .week-transport {
             border: 7px solid #ee980f;
+        }
+    }
+}
+
+.discount {
+    margin-top: 40px;
+    .container {
+        background: url(../images/discount-bg.png) no-repeat;
+        background-size: 100% 100%;
+        padding: 30px;
+    }
+    .row {
+        background: #f0f2f8;
+        margin: 0;
+        padding: 20px;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li {
+            font-family: 'Calibri';
+            font-size: 27px;
+            line-height: 1.3;
+
+            .delete {
+                font-size: 44px;
+                background: url(../images/dicount-cross.png) no-repeat;
+                background-size: 100% 100%;
+            }
+            .delete.no {
+                background: none;
+            }
+            .one {
+                font-size: 44px;
+                margin-left: 30px;
+            }
+            .save {
+                display: block;
+                color: #ff0000;
+                text-align: center;
+            }
+            img {
+                margin-right: 5px;
+            }
+        }
+    }
+    .order-button {
+        margin: 20px 0;
+    }
+}
+
+.footer-top {
+    margin-top: 30px;
+    .container {
+        background: url(../images/footer-top.png) no-repeat;
+        background-size: 100% 100%;
+        min-height: 610px;
+    }
+    .buttons {
+        margin-top: 34%;
+    }
+    .order-link {
+        position: relative;
+        display: inline-block;
+        margin: 20px 0;
+        &:before {
+            content: "";
+            background: url(../images/footer-top-arrow.png) no-repeat;
+            width: 229px;
+            height: 90px;
+            position: absolute;
+            top: 8px;
+            left: -257px;
         }
     }
 }
