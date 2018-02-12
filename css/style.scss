@@ -3,9 +3,12 @@ body {
     color: #000;
 }
 
-.no-padding-left {
-    padding-left: 0;
+@media (min-width:992px) {
+    .no-padding-left {
+        padding-left: 0;
+    }
 }
+
 
 .no-padding-right {
     padding-right: 0;
@@ -382,6 +385,7 @@ body {
         &:after {
             content: "";
             background: url(../images/medicine-2.png) no-repeat;
+            background-size: 100% 100%;
             width: 357px;
             height: 319px;
             position: absolute;
@@ -604,6 +608,7 @@ body {
 
         input[type="checkbox"]:checked + label span {
             background: url(../images/checked.png) top no-repeat;
+            background-size: 100% 100%;
         }
     }
 }
@@ -633,8 +638,9 @@ body {
         }
     }
 }
-.main-footer{
-    .social-wrpaer{
+
+.main-footer {
+    .social-wrpaer {
         background: #fbfbfb;
         border: 1px solid #bfbfbf;
         max-width: 81%;
@@ -642,43 +648,44 @@ body {
         display: flex;
         flex-flow: row wrap;
         border-radius: 10px;
-        h4{
+        h4 {
             margin-bottom: 5px;
         }
-        img{
+        img {
             margin-bottom: 5px;
         }
-        >div{
+        > div {
             border-right: 1px solid #bfbfbf;
         }
     }
-    .footer-menu{
+    .footer-menu {
         margin: 0;
         padding: 0;
         list-style: none;
-        li{
+        li {
             display: inline-block;
             margin: 0 10px;
             margin-bottom: 10px;
-            a{
+            a {
                 font-family: 'Tahoma';
                 color: #000;
                 text-decoration: underline;
             }
         }
     }
-    .copy{
+    .copy {
         font-family: 'Tahoma';
         margin-top: 15px;
         margin-bottom: 30px;
-        span{
+        span {
             color: #e14545;
         }
     }
 }
-.pera{
+
+.pera {
     padding: 50px 0 0 0;
-    .pera-wrpaer{
+    .pera-wrpaer {
         text-align: center;
         background: #f7f8f3;
         border: 1px solid #e0e1dc;
@@ -687,19 +694,19 @@ body {
         margin: 0 auto;
         padding: 5px;
         margin-bottom: 10px;
-        p{
+        p {
             margin: 0;
         }
     }
-    .pera-wrpaer.flex{
+    .pera-wrpaer.flex {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        a{
+        a {
             color: #000;
             font: 700 18px 'Ebrima';
             position: relative;
-            &:after{
+            &:after {
                 content: "";
                 background: url(../images/arrow.png);
                 width: 30px;
@@ -707,8 +714,8 @@ body {
                 position: absolute;
                 right: -40px;
             }
-            &:last-child{
-                &:after{
+            &:last-child {
+                &:after {
                     display: none;
                 }
             }

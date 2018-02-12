@@ -1,0 +1,333 @@
+@media (max-width:1199px) {
+    .main-header .right-form .content {
+        padding-left: 15px;
+    }
+    .main-header .right-form .content lable span {
+        width: 36%;
+    }
+    .main-header .right-form .content lable input {
+        width: 59%;
+    }
+    .main-header .right-form h2 span {
+        font-size: 25px;
+    }
+    .main-header .right-form h2 {
+        font-size: 33px;
+    }
+    .main-header .left-title .orange-title {
+        padding-left: 72px;
+    }
+    .main-header .left-title .garuntte {
+        max-width: 80%;
+        margin: -20px auto 0;
+    }
+    .pera .pera-wrpaer {
+        max-width: 87%;
+    }
+    .formula .formula-fact {
+        max-width: 512px;
+    }
+    .benifits ul::after {
+        width: 255px;
+        height: 246px;
+        top: 62px;
+        right: 15px;
+    }
+    .benifits ul li {
+        font-size: 31px;
+    }
+    .discount h4 {
+        font-size: 48px;
+    }
+    .discount .text-top p {
+        font-size: 30px;
+    }
+    .discount .check-box input[type="checkbox"] + label {
+        font-size: 33px;
+    }
+    .main-footer .social-wrpaer {
+        max-width: 100%;
+    }
+    .what-better .what-man {
+        top: 306px;
+    }
+    .main-header .right-form::after {
+        width: 65px;
+        right: -48px;
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .main-header .container::before,
+    .main-header .gurantee-satification,
+    .formula .formula-fact,
+    .formula .gmp,
+    .what-better .what-man,
+    .benifits ul::after {
+        display: none;
+    }
+    .main-header .title-wraper {
+        width: 100%;
+    }
+    .pera .pera-wrpaer {
+        max-width: 100%;
+    }
+    .text-center-991 {
+        text-align: center;
+    }
+    .what-better .what-medicine {
+        margin-top: 0;
+        max-width: 450px;
+    }
+    .benifits h4 {
+        font-size: 55px;
+    }
+    .benifits h4 span {
+        font-size: 100px;
+    }
+    .benifits ul li {
+        font-size: 22px;
+        padding: 9px 0 9px 150px;
+    }
+    .week-transport h5 span {
+        font-size: 50px;
+    }
+    .discount ul li {
+        text-align: center;
+    }
+    .discount h4 {
+        font-size: 36px;
+    }
+    .discount .text-top p {
+        font-size: 20px;
+    }
+    .discount .check-box input[type="checkbox"] + label {
+        font-size: 23px;
+    }
+    .discount .check-box h3 {
+        font-size: 40px;
+    }
+    .main-header .left-title h2 {
+        left: 0;
+    }
+    .main-header .left-title .orange-title:nth-child(2) {
+        left: -7%;
+    }
+}
+
+@media (max-width:767px) {
+    .main-header .right-form .content lable input {
+        width: 56%;
+    }
+    .logo a {
+        display: block;
+        text-align: left;
+    }
+    .main-header .right-form .content lable span {
+        width: 37%;
+    }
+    .pera .pera-wrpaer.flex a {
+        font-size: 14px;
+    }
+    .news p {
+        font-size: 20px;
+    }
+    .formula .title h2 {
+        font-size: 40px;
+    }
+    .formula .title p {
+        font-size: 24px;
+    }
+    .week-transport .medicine,
+    .footer-top .order-link::before {
+        display: none;
+    }
+    .week-transport .order-button {
+        margin-bottom: 15px;
+    }
+    .discount h4 {
+        font-size: 24px;
+    }
+    .discount .text-top p {
+        font-size: 15px;
+    }
+    .discount .check-box h3 {
+        font-size: 26px;
+    }
+    .discount .check-box {
+        padding-left: 0;
+    }
+    .discount .check-box input[type="checkbox"] + label span {
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+    }
+    .discount .check-box input[type="checkbox"] + label {
+        font-size: 17px;
+    }
+    .main-footer .social-wrpaer > div {
+        border-right-color: transparent;
+        text-align: center;
+        border-bottom: 1px solid #bfbfbf;
+        &:last-child {
+            border-bottom-color: transparent;
+        }
+    }
+    .product-inforamtion p {
+        font-size: 18px;
+    }
+    .benifits ul li::before {
+        top: 50%;
+        margin-top: -57px;
+    }
+    .footer-top .container {
+        background: url(../images/discount-bg.png) no-repeat #F0F2F8;
+        min-height: auto;
+    }
+    .footer-top .buttons {
+        margin-top: 0;
+        padding: 50px 15px;
+    }
+    .benifits h4 {
+        font-size: 43px;
+    }
+    .benifits h4 span {
+        font-size: 70px;
+    }
+}
+
+@media (max-width:575px) {
+    .what-better .what-medicine,
+    .main-header .left-title,
+    .main-header .right-form {
+        width: 100%;
+    }
+    .main-header .right-form::after,
+    .pera .pera-wrpaer.flex a::after {
+        display: none;
+    }
+    .logo a {
+        font-size: 21px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo a img {
+        max-width: 90px;
+    }
+    .main-header .left-title .garuntte {
+        max-width: 50%;
+        margin-bottom: 30px;
+    }
+    .news h2 {
+        font-size: 28px;
+    }
+    .formula .title {
+        padding: 47px 0 89px 17px;
+        width: 100%;
+    }
+    .formula .title h2 {
+        font-size: 28px;
+    }
+    .formula .title p {
+        font-size: 17px;
+    }
+    .formula h3 {
+        font-size: 28px;
+    }
+    .no-padding-575 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .what-better .what-title {
+        padding: 21px 0 30px 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .what-better .what-title h3 {
+        font-size: 21px;
+    }
+    .what-better p {
+        font-size: 20px;
+    }
+    .what-better .what-order {
+        margin-left: 0;
+    }
+    .benifits h4 {
+        font-size: 40px;
+    }
+    .benifits h4 span {
+        font-size: 48px;
+    }
+    .benifits ul li::before {
+        left: 0;
+    }
+    .benifits ul li {
+        font-size: 16px;
+        padding-left: 63px;
+    }
+    .discount ul li {
+        margin: 15px 0;
+    }
+    .discount ul li .delete {
+        font-size: 33px;
+    }
+    .discount ul li .one {
+        font-size: 33px;
+        margin-left: 12px;
+    }
+    .discount .text-bottom p .red {
+        font-size: 35px;
+    }
+    .discount .text-bottom p .shiping {
+        font-size: 23px;
+    }
+    .main-footer .social-wrpaer {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .discount .check-box {
+        padding-top: 20px;
+    }
+    .discount .container {
+        padding: 15px;
+    }
+    .discount .text-bottom .cross span {
+        font-size: 35px;
+        margin: 12px;
+    }
+    .news {
+        margin: 0 15px;
+    }
+    .news p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .main-header .right-form h2 {
+        font-size: 40px;
+    }
+    .main-header .right-form h2 span {
+        font-size: 31px;
+    }
+    .formula p {
+        font-size: 18px;
+    }
+    .main-header .left-title h2 {
+        padding-right: 45px;
+	display: inline-block;
+}
+    .main-header .left-title .orange-title {
+	max-width: 300px;
+	margin: 0 auto;
+}
+    .main-header .right-form {
+	float: none;
+	clear: both;
+	margin: 0 auto;
+        max-width: 300px;
+}
+}
